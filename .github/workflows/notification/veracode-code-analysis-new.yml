@@ -1,6 +1,8 @@
 name: Veracode Static Code Analysis From Notification service
 
-on: push
+on:
+  repository_dispatch:
+    types: [source-code-pipeline-scan]
 
 jobs:
   bash-example:
