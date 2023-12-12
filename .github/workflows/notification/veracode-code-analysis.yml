@@ -1,7 +1,5 @@
 name: Veracode Static Code Analysis From Notification service
 
-run-name: Static Code Analysis From Notification service - ${{ github.event.client_payload.repository.name }}
-
 on: push
 
 jobs:
