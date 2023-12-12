@@ -11,9 +11,8 @@ exclude_repos:
 groups:
     notification
     order
-    java-api-goat
     vulnado
-
+    
 group_detail:
     #List all the sub groups under the org
     #Each sub group would have a separate veracode.yaml config which would be linked via the below name
