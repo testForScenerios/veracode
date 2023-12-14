@@ -1,17 +1,17 @@
 #Populate the list of repos required to scan under org or leave it blank or "*" to include all
 include_repos:
-    example-javascript
-    vulnado
+    - example-javascript
+    - vulnado
 
 #Populate all the repo that should be excluded from veracode scans
 exclude_repos:
-    veracode-github-app
-    github-actions-integration
+    - veracode-github-app
+    - github-actions-integration
 
 groups:
-    notification
-    order
-    vulnado
+    - notification
+    - order
+    - vulnado
     
 group_detail:
     #List all the sub groups under the org
