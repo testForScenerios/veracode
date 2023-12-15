@@ -6,6 +6,7 @@ include_repos:
 exclude_repos:
     - veracode-github-app
     - github-actions-integration
+    - example-javascript
 
 groups:
     - notification
