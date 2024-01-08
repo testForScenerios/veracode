@@ -6,6 +6,7 @@ include_repos:
 exclude_repos:
  - example-javascript
  - vulnado
+ - verademo-dotnet
 
 groups:
     - notification
