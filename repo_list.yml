@@ -3,7 +3,7 @@ include_repos:
  - "*"
 #Populate all the repo that should be excluded from veracode scans
 exclude_repos:
- - vulnado
+ - dummyName
 
 groups:
     - notification
