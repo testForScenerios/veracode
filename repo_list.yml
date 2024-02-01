@@ -1,0 +1,22 @@
+#Populate the list of repos required to scan under org or leave it blank or "*" to include all
+include_repos:
+ - "*"
+#Populate all the repo that should be excluded from veracode scans
+exclude_repos:
+ - dummyName
+
+groups:
+    - notification
+    - order
+    - vulnado
+    
+group_detail:
+    #List all the sub groups under the org
+    #Each sub group would have a separate veracode.yaml config which would be linked via the below name
+    notification:
+        #List of repos under this group
+        notification-service-api
+        notification-service-ui
+    order:
+        order-service-api
+        order-service-ui
