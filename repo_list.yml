@@ -3,7 +3,7 @@ include_repos:
  - example-javascript
 #Populate all the repo that should be excluded from veracode scans12
 exclude_repos:
-
+ - dummy
 groups:
     - notification
     - order
