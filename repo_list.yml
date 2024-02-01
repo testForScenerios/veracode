@@ -1,5 +1,4 @@
-#Populate the list of repos required to scan under org or leave it blank or "*" to include all
-include_repos:
+
 
 #Populate all the repo that should be excluded from veracode scans12
 exclude_repos:
