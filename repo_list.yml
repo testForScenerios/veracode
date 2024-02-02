@@ -3,8 +3,8 @@ include_repos:
   - vulnado
   - verademo-dotnet
 #Populate all the repo that should be excluded from veracode scans
-# exclude_repos:
-#   - "*"
+exclude_repos:
+  - "*"
 groups:
   - notification
   - order
@@ -19,3 +19,8 @@ group_detail:
   order: 
      order-service-api 
      order-service-ui
+
+     # vulnado
+     # verademo-dotnet
+     # vulnado
+     # example-javascript
