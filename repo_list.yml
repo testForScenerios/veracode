@@ -3,7 +3,7 @@ include_repos:
   - v*
 # # Populate all the repo that should be excluded from veracode scans
 exclude_repos:
-  - example-*
+  - v*
 groups:
   - notification
   - order
