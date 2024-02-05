@@ -1,14 +1,14 @@
 Populate the list of repos required to scan under org or leave it blank or "*" to include all
-# include_repos:
-#   - vulnado
-#   - verademo-dotnet
-# Populate all the repo that should be excluded from veracode scans
-# exclude_repos:
-#   - "*"
-# groups:
-#   - notification
-#   - order
-#   - vulnado
+include_repos:
+  - vulnado
+  - verademo-dotnet
+Populate all the repo that should be excluded from veracode scans
+exclude_repos:
+  - "*"
+groups:
+  - notification
+  - order
+  - vulnado
 group_detail:
 #List all the sub groups under the org
 #Each sub group would have a separate veracode.yaml config which would be linked via the below name
