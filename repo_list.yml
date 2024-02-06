@@ -2,11 +2,11 @@
 include_repos:
   - example-*
   - terraform*
+  - vuln*
+  - verademo-*
  
 
 #Populate the list of repos to skip from running the veracode the scan(s) under org or leave it blank or "*" to exclude all
 exclude_repos:
-  - vuln*
-  - verademo-*
-
+  - "*"
   
