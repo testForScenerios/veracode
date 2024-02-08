@@ -8,5 +8,6 @@ exclude_repos:
     # - '*java*'
     # - exa*
     - e*xa
+    # - *le*
   
   
