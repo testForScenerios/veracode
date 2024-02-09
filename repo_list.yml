@@ -7,7 +7,7 @@ include_repos:
 exclude_repos:
     # - '*example*'
     # - 'exa*'
-    - 'e*xa'
+    - e*xa
     # - '*le*'
       # - '*'
     
